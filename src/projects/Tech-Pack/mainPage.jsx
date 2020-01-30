@@ -308,7 +308,7 @@ const MainPage =props=> {
             </div>
             <div className="col-sm-2" >
                
-                <button className="btn btn-primary" disabled={downloadButtonDisabled} onClick={onDownloadClick}>Download</button>
+                <button className="btn btn-secondary" disabled={downloadButtonDisabled} onClick={onDownloadClick}>Download</button>
             </div>
         </div>
       </div>
